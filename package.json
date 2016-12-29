@@ -1,9 +1,12 @@
 {
   "name": "pxrem",
   "main": "./lib/pxrem",
-  "version": "0.2.1",
+  "version": "0.3.0",
   "description": "Convert px to rem plugin for atom.",
-  "keywords": ["px", "rem"],
+  "keywords": [
+    "px",
+    "rem"
+  ],
   "repository": {
     "type": "git",
     "url": "git+https://github.com/showonne/pxrem.git"
