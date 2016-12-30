@@ -2,8 +2,8 @@
   "context-menu": {
     "atom-text-editor": [
       {
-        "label": "Toggle pxrem",
-        "command": "pxrem:toggle"
+        "label": "Convert to rem",
+        "command": "pxrem:convert"
       }
     ]
   },
@@ -15,8 +15,8 @@
           "label": "pxrem",
           "submenu": [
             {
-              "label": "Toggle",
-              "command": "pxrem:toggle"
+              "label": "Convert",
+              "command": "pxrem:convert"
             }
           ]
         }
