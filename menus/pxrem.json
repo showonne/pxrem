@@ -1,26 +1,32 @@
 {
-  "context-menu": {
+    "context-menu": {
     "atom-text-editor": [
-      {
-        "label": "Convert to rem",
-        "command": "pxrem:convert"
-      }
-    ]
-  },
-  "menu": [
-    {
-      "label": "Packages",
-      "submenu": [
         {
-          "label": "pxrem",
-          "submenu": [
-            {
-              "label": "Convert",
-              "command": "pxrem:convert"
-            }
-          ]
+            "label": "Px2rem: All",
+            "command": "pxrem:convertAll"
+        }, {
+            "label": "Px2rem: Partial",
+            "command": "pxrem:convertPartial"
         }
-      ]
-    }
-  ]
+    ]
+    },
+    "menu": [
+        {
+            "label": "Packages",
+            "submenu": [
+                {
+                    "label": "pxrem",
+                    "submenu": [
+                        {
+                          "label": "Convert: All",
+                          "command": "pxrem:convertAll"
+                        }, {
+                          "label": "Convert: Partial",
+                          "command": "pxrem:convertPartial"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
 }

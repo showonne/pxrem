@@ -1,5 +1,6 @@
 {
   "atom-workspace": {
-    "ctrl-alt-o": "pxrem:convert"
+    "ctrl-alt-o": "pxrem:convertAll",
+    "ctrl-alt-p": "pxrem:convertPartial"
   }
 }
